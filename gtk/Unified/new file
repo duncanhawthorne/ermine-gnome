@@ -1,0 +1,20 @@
+engine "pixmap" {
+
+	       image
+       {
+       function			= VLINE
+        recolorable		= TRUE
+	file			= "vline.png"
+	border			= { 0, 0, 0, 0 }
+	stretch			= TRUE
+	}
+
+			image {
+			function		= HANDLE
+			orientation	= VERTICAL
+			file			= "vhandle.png"
+			border		= {3,3,3,3}
+			stretch		= TRUE
+		}
+
+	}

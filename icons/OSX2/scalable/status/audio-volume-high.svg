@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="64px"
+   height="64px"
+   id="svg2160"
+   sodipodi:version="0.32"
+   inkscape:version="0.45.1"
+   sodipodi:docbase="/home/duncan/.icons/OSX2/scalable/status"
+   sodipodi:docname="audio-volume-high.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape">
+  <defs
+     id="defs2162" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="5.5"
+     inkscape:cx="32"
+     inkscape:cy="33.340507"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     inkscape:document-units="px"
+     inkscape:grid-bbox="true"
+     inkscape:window-width="696"
+     inkscape:window-height="543"
+     inkscape:window-x="9"
+     inkscape:window-y="253" />
+  <metadata
+     id="metadata2165">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer">
+    <path
+       sodipodi:type="arc"
+       style="opacity:1;fill:#d7d7d7;fill-opacity:1;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path2168"
+       sodipodi:cx="16.363636"
+       sodipodi:cy="33.81818"
+       sodipodi:rx="8"
+       sodipodi:ry="8"
+       d="M 24.363636 33.81818 A 8 8 0 1 1  8.363636,33.81818 A 8 8 0 1 1  24.363636 33.81818 z"
+       transform="matrix(0.7499999,0,0,0.7499999,-5.1818176,6.909093)" />
+    <rect
+       style="opacity:1;fill:#d7d7d7;fill-opacity:1;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect2610"
+       width="9.181818"
+       height="24.181818"
+       x="17.09091"
+       y="19.818182"
+       rx="1.0334623"
+       ry="0.58667821" />
+    <rect
+       style="opacity:1;fill:#d7d7d7;fill-opacity:1;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect2612"
+       width="9.545454"
+       height="41.272728"
+       x="32.636364"
+       y="11.181818"
+       rx="1.0743915"
+       ry="1.001323" />
+    <rect
+       style="opacity:1;fill:#d7d7d7;fill-opacity:1;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect2614"
+       width="9.3181839"
+       height="61.636364"
+       x="49.409088"
+       y="1.0909091"
+       rx="1.048811"
+       ry="1.4953679" />
+  </g>
+</svg>

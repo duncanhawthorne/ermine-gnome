@@ -1,0 +1,167 @@
+style "combobox"		= "default"
+{
+	xthickness = 1
+     ythickness = 2
+     
+     engine "pixmap" {
+    
+          image{
+               function			= BOX
+               recolorable		= TRUE
+               state			= NORMAL
+               file				= "combobox/combobox-normal_2.png"
+               border			= { 5, 5, 5, 5}
+               stretch			= TRUE
+          }   
+          image{
+               function			= BOX
+               recolorable		= TRUE
+               state			= PRELIGHT
+               file				= "combobox/combobox-normal_2.png"
+               border			= { 5, 5, 5, 5}
+               stretch			= TRUE
+          }
+          image{
+               function			= BOX
+               recolorable		= TRUE
+               state			= ACTIVE
+               file				= "combobox/combobox-pressed_2.png"
+               border			= { 5, 5, 5, 5}
+               stretch			= TRUE
+          }
+          image{
+               function			= BOX
+               recolorable		= TRUE
+               state			= INSENSITIVE
+               file				= "combobox/combobox-disabled_2.png"
+               border			= { 5, 5, 5, 5}
+               stretch			= TRUE
+          }
+          image{
+               function			= ARROW
+               state			= NORMAL
+               overlay_file		= "combobox/combo-arrow.png"
+               overlay_stretch	= FALSE
+          }
+          image{
+               function			= ARROW
+               state			= PRELIGHT
+               overlay_file		= "combobox/combo-arrow.png"
+               overlay_stretch	= FALSE
+          }
+          image{
+               function			= ARROW
+               state			= ACTIVE
+               overlay_file		= "combobox/combo-arrow.png"
+               overlay_stretch	= FALSE
+          }
+          image{
+               function			= ARROW
+               state			= INSENSITIVE
+               overlay_file		= "combobox/combo-arrow.png"
+               overlay_stretch	= FALSE
+          }
+          image{
+               function			= VLINE
+               recolorable		= TRUE
+               file				= "combobox/line.png"
+               border			= { 0, 0, 0, 0}
+               stretch			= TRUE
+          }
+	  image {
+		function			= SHADOW
+		shadow			= IN
+		state			= NORMAL
+     	file		     	= "shadows/text-entry.png"
+     	border			= { 3,3,3,3 }
+		stretch			= TRUE
+    	}
+    }
+}
+
+style "combobox-entry"		= "default"
+{
+     xthickness = 0
+     ythickness = 0
+     
+     engine "pixmap" {
+    
+          image{
+               function			= BOX
+               recolorable		= TRUE
+               state			= NORMAL
+               file				= "combobox/combobox-normal.png"
+               border			= { 5, 5, 5, 5}
+               stretch			= TRUE
+          }   
+          image{
+               function			= BOX
+               recolorable		= TRUE
+               state			= PRELIGHT
+               file				= "combobox/combobox-normal.png"
+               border			= { 5, 5, 5, 5}
+               stretch			= TRUE
+          }
+          image{
+               function			= BOX
+               recolorable		= TRUE
+               state			= ACTIVE
+               file				= "combobox/combobox-pressed.png"
+               border			= { 5, 5, 5, 5}
+               stretch			= TRUE
+          }
+          image{
+               function			= BOX
+               recolorable		= TRUE
+               state			= INSENSITIVE
+               file				= "combobox/combobox-disabled.png"
+               border			= { 5, 5, 5, 5}
+               stretch			= TRUE
+          }
+          image{
+               function			= ARROW
+               state			= NORMAL
+               overlay_file		= "combobox/combo-arrow.png"
+               overlay_stretch	= FALSE
+          }
+          image{
+               function			= ARROW
+               state			= PRELIGHT
+               overlay_file		= "combobox/combo-arrow.png"
+               overlay_stretch	= FALSE
+          }
+          image{
+               function			= ARROW
+               state			= ACTIVE
+               overlay_file		= "combobox/combo-arrow.png"
+               overlay_stretch	= FALSE
+          }
+          image{
+               function			= ARROW
+               state			= INSENSITIVE
+               overlay_file		= "combobox/combo-arrow.png"
+               overlay_stretch	= FALSE
+          }
+          image{
+               function			= VLINE
+               recolorable		= TRUE
+               file				= "combobox/line.png"
+               border			= { 0, 0, 0, 0}
+               stretch			= TRUE
+          }
+	  image {
+		function			= SHADOW
+		shadow			= IN
+		state			= NORMAL
+     	file		     	= "shadows/text-entry.png"
+     	border			= { 3,3,3,3 }
+		stretch			= TRUE
+    	}
+    }
+}
+class "GTKCombo" 					style "combobox-entry"
+widget_class "*Combo.*" 			style "combobox-entry"
+class "GTKComboBox" 				style "combobox"
+widget_class "*ComboBox.*" 		style "combobox"
+class "GTKComboBoxEntry" 			style "combobox-entry"
+widget_class "*ComboBoxEntry.*" 		style "combobox-entry"
