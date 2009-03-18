@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.0"
+   width="64"
+   height="64"
+   id="svg7147"
+   sodipodi:version="0.32"
+   inkscape:version="0.45.1"
+   sodipodi:docname="gtk-history.png.svg"
+   sodipodi:docbase="/home/d/.themes/Unified/gtk-2.0/icons-neon"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape">
+  <metadata
+     id="metadata8">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     inkscape:window-height="480"
+     inkscape:window-width="696"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     guidetolerance="10.0"
+     gridtolerance="10.0"
+     objecttolerance="10.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base"
+     inkscape:zoom="5.0625"
+     inkscape:cx="32"
+     inkscape:cy="32"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:current-layer="svg7147" />
+  <defs
+     id="defs7149" />
+  <path
+     id="path2184"
+     style="fill:#ff0000;fill-opacity:0;fill-rule:evenodd;stroke:#d7d7d7;stroke-width:10.41992474;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     d="M 57.754985,32.19123 C 57.754985,46.08603 46.54969,57.349991 32.727259,57.349991 C 18.904826,57.349991 7.6995313,46.08603 7.6995313,32.19123 C 7.6995313,18.296429 18.904826,7.0324679 32.727259,7.0324679 C 46.54969,7.0324679 57.754985,18.296429 57.754985,32.19123 L 57.754985,32.19123 z " />
+  <path
+     id="path4132"
+     style="fill:none;fill-rule:evenodd;stroke:#d7d7d7;stroke-width:10.4199276;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     d="M 53.302787,19.17336 L 32.547864,34.36893 L 12.534186,19.543985" />
+</svg>

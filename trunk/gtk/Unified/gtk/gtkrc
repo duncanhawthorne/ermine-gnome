@@ -1,0 +1,81 @@
+# Tish-GTK (patched from LighthouseBlue Theme)
+
+style "default"
+{
+  	fg[NORMAL]          = "#161616"
+  	fg[PRELIGHT]     	= "#000000"
+  	fg[ACTIVE]        	= "#161616"
+  	fg[SELECTED]      	= "#000000"
+  	fg[INSENSITIVE]   	= "#777777"
+
+	bg[NORMAL] 			= "#f4f4f44"
+	bg[PRELIGHT] 		= "#f4f4f4"
+	bg[SELECTED] 		= "#b7b7b7"
+	bg[ACTIVE] 			= "#CCCCCC"
+	bg[INSENSITIVE] 	= "#f4f4f4"
+		
+	base[NORMAL] 		= "#f4f4f4"
+	base[SELECTED] 		= "#b7b7b7"
+	base[ACTIVE] 		= "#cccccc"
+	base[PRELIGHT]		= "#b7b7b7"
+	base[INSENSITIVE]	= "#f4f4f4"
+
+  	text[NORMAL]      	= "#161616"
+  	text[PRELIGHT]     	= "#000000"
+  	text[ACTIVE]      	= "#161616"
+  	text[SELECTED]    	= "#000000"
+  	text[INSENSITIVE] 	= "#777777"
+  
+  engine "lighthouseblue" 
+  {}
+}
+
+style "notebook" = "default"
+{
+  bg[NORMAL] = "#f4f4f4"
+  bg[ACTIVE] = "#D7D7D7"
+
+  engine "lighthouseblue" 
+    {
+      wide = TRUE
+    }
+}
+
+style "frame" = "default"
+{
+  bg[NORMAL] = "#f4f4f4"
+}
+
+style "button" = "default"
+{
+  bg[NORMAL]   = "#f4f4f4"
+  bg[PRELIGHT] = "#f4f4f4"
+  bg[ACTIVE]   = "#f4f4f4"
+}
+
+style "togglebutton" = "default"
+{
+  fg[SELECTED] = "#b7b7b7"
+  
+  bg[NORMAL]   = "#f4f4f4"
+  bg[PRELIGHT] = "#f4f4f4"
+  bg[ACTIVE]   = "#c8c8c8"
+}
+
+style "menuitem" = "default"
+{
+  bg[NORMAL]   = "#f4f4f4"
+  bg[PRELIGHT] = "#b7b7b7"
+  fg[PRELIGHT] = "#f4f4f4"
+}
+
+class "GtkWidget" style "default"
+class "GtkButton" style "button"
+class "GtkNotebook" style "notebook"
+class "GtkFrame" style "frame"
+class "GtkMenuItem" style "menuitem"
+class "GtkToggleButton" style "togglebutton"
+
+widget_class "*.GtkButton.*" style "button"
+widget_class "*.*MenuItem.*" style "menuitem"
+
