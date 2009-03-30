@@ -17,12 +17,14 @@
 #class "*Tray*" style "panelbg"
 #class "*tray*" style "panelbg"
 
+
+#color for the text on the panel is here #f4f4f4 #ffffff
 style "panel"
 {
-	fg[NORMAL] 			= "#d7d7d7" 
-	fg[PRELIGHT] 			= "#d7d7d7"
-	fg[ACTIVE] 			= "#d7d7d7"
-	fg[SELECTED] 			= "#d7d7d7"
+	fg[NORMAL] 			= "#000000" 
+	fg[PRELIGHT] 			= "#000000"
+	fg[ACTIVE] 			= "#000000"
+	fg[SELECTED] 			= "#000000"
 
 
 }
